@@ -6,7 +6,7 @@ Program počítá kvadratickou rovnici. Na vstupu jsou tři čísla, označena p
 
 
 ## Popis spouštění PHPUnit testu
-Program na test je rozdělen do tří částí:
+**Program na test je rozdělen do tří částí:**
 1. Funkce testsetteruagetteru
    - tato funkce kontroluje, zdali všechny gettery a settery fungují, jak mají.
 2. Funkce testcheckD
