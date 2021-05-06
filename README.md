@@ -1,15 +1,7 @@
-# Základy iformace o PHPUnit testu a popis spouštění
+# Date-and-time
 
-## Základní iformace
+Stránka je rozvržena do hlavních částí headeru, mainu a footeru. V headeru se nachází nadpis, v mainu tabulka s aktuálním datumem a časem, ve footeru se nachází jméno autora. Čas a datum se řeší pomocí php pomocí jednoduchého příkazu "date". Vše je nastylované ve souboru scss a v souboru css. Ovšem využívá se soubor scss. 
 
-Program počítá kvadratickou rovnici. Na vstupu jsou tři čísla, označena písmenka a, b, c. Program spočítá determinant a popřípadě, kdyby determinant vyšel nevhodně, tak program vypíše chybu a zastaví se. Poté vypočítá výsledek a zkontroluje, zdali je výsledek možný. Kdyby ne, tak napíše chybovou hlášku a kdyby byl možný pouze jeden z výsledků x, tak vypíše pouze ten správný.
+Stránka vypadá takto:
 
-
-## Popis spouštění PHPUnit testu
-Program na test je rozdělen do tří částí:
-1. Funkce testsetteruagetteru
-   - tato funkce kontroluje, zdali všechny gettery a settery fungují, jak mají.
-2. Funkce testcheckD
-   - tato funkce kontroluje, zdali funkce checkD kontroluje diskriminant správně.
-3. Funkce testshowRoots
-   - tato funkce kontroluje, zdali jsou výsledky příkladu správné.
+![image](https://user-images.githubusercontent.com/74651859/116241745-89c72f80-a765-11eb-8356-b2caeca37ed5.png)
