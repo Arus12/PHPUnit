@@ -4,7 +4,7 @@ use BasicPHPUnitTest\math;
 
 require __DIR__ . "/vendor/autoload.php";
 
-$k = new math\kvadr(1, -1, -20);
+$k = new math\kvadr(10, -11, 1);
 echo $k->checkD($k);
-echo $k->showRoots($k);
+$k->showRoots($k);
 echo $k->checkresult($k);
